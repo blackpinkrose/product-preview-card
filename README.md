@@ -33,6 +33,7 @@ Desktop View
 ![Desktop view for the Product preview card component coding challenge](./design/desktop-view.png?raw=true)
 
 Mobile View using Iphone XR
+
 ![Mobile view for the Product preview card component coding challenge](./design/mobile-view.png?raw=true)
 
 Active State
