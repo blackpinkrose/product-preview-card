@@ -75,17 +75,13 @@ If given the time and interest, I might update this site once I learned other ap
 
 ### Useful resources
 
-- Google and StackOverflow
-  I just google things out and it leads me to some stackoverflow link which I often find useful in many scenarios.
+- Google and StackOverflow - I just google things out and it leads me to some stackoverflow link which I often find useful in many scenarios.
 
-- W3Schools
-  When I'm unsure about some syntax, or how a css style works out, I sometimes go here.
+- W3Schools - When I'm unsure about some syntax, or how a css style works out, I sometimes go here.
 
-- Youtube
-  When I want to dive a little bit deeper on a topic or an approach, I usually go here.
+- Youtube - When I want to dive a little bit deeper on a topic or an approach, I usually go here.
 
-- Team TreeHouse
-  I'm currently taking their Front-End Web Development track here and where most of my foundation in web development was built.
+- Team TreeHouse - I'm currently taking their Front-End Web Development track here and where most of my foundation in web development was built.
 
 ## Author
 
