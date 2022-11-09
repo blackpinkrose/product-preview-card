@@ -6,16 +6,16 @@ html {
 body {
   background-color: hsl(30, 38%, 92%);
 }
+
 section {
-  width: 365px;
+  width: 355px;
   height: 635px;
   max-width: 375px;
   margin: 2rem auto;
   border-radius: 10px;
-  background-color: white;
 }
 
-img[alt="Chanel Perfume"] {
+img {
   width: 100%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -24,6 +24,7 @@ img[alt="Chanel Perfume"] {
 
 .item-info {
   padding: 1rem 1.9rem;
+  background-color: white;
 }
 
 .item-type,
@@ -57,7 +58,6 @@ img[alt="Chanel Perfume"] {
 .discounted-price,
 .original-price {
   display: inline-block;
-  margin-top: 1.5em;
 }
 
 .discounted-price {
@@ -80,13 +80,13 @@ button {
   color: white;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 0.8rem;
   background: no-repeat url(../images/icon-cart.svg);
   background-position: 33% 45%;
-  background-size: 1.1rem 1.1rem;
+  background-size: 1rem 1rem;
   background-color: hsl(158, 36%, 37%);
-  padding: 0.8em;
-  padding-left: 3em;
+  padding: 0.8rem;
+  padding-left: 2.8em;
   margin-top: 1em;
   border-radius: 8px;
   border: none;
@@ -97,98 +97,38 @@ button:hover {
   background-color: hsl(159, 37%, 26%);
 }
 
-/* section {
-    height: 600px;
-    width: 340px;
-    max-width: 375px;
-    max-height: 675px;
-    margin: 30px auto;
-    border-radius: 10px;
-    background-color: white; 
-} */
-/*
+@media screen and (min-width: 790px) {
+  section {
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    height: 450px;
+    margin: 20vh calc(50% - 300px) 3em;
+  }
 
-img {
-    width: 100%;
-    border-top-left-radius: 10px;
+  img {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    content: url("../images/image-product-desktop.jpg");
+  }
+
+  .item-info {
+    padding: 1rem 2rem;
     border-top-right-radius: 10px;
-    display: block;
+    border-bottom-right-radius: 10px;
+  }
+
+  .item-name {
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+  }
+
+  .discounted-price,
+  .original-price {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  button {
+    background-position: 30% 45%;
+  }
 }
-
-
-.item-info {
-    background-color: white;
-    padding: 1em 1.5em;
-    border-radius: inherit;
-}
-
-.item-type {
-    font-size: 75%;
-    margin-block-start: .875em;
-    margin-block-end: .875em;
-}
-
-.item-type,
-.item-desc {
-    color: hsl(228, 12%, 48%);
-    font-family: 'Montserrat', sans-serif;
-}
-
-.item-name {
-    color: hsl(212, 21%, 14%);
-    font-family: 'Fraunces', serif;
-    line-height: 1;
-    margin: 0.4em 0;
-}
-
-.item-desc {
-    font-size: 14px;
-    line-height: 1.65;
-}
-
-.discounted-price,
-.original-price {
-    margin-block-start: .65rem;
-    margin-block-end: .65rem;
-    display: inline-block;
-}
-
-.discounted-price {
-    color: hsl(158, 36%, 37%);
-    font-size: 2em;
-    font-family: 'Fraunces', serif;
-    margin-inline-end: .5em;
-}
-
-.original-price {
-    color: hsl(228, 12%, 48%);
-    font-size: 80%;
-    font-family: 'Montserrat', sans-serif;
-    text-decoration: line-through;
-    vertical-align: super;
-}
-
-button {
-    color: white;
-    font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    padding: 1.125em 1.125em 1.125em 3em;
-    margin:  auto; 
-    width: 100%;
-    border: none;
-    border-radius: 8px;
-    display:block;
-    background: no-repeat url(../images/icon-cart.svg);
-    background-position: 90px center;
-    background-color: hsl(158, 36%, 37%);
-}
-
-
-
-button:hover {
-    cursor: pointer;
-    background-color: hsl(158, 70%, 15%);
-} 
-
-*/
