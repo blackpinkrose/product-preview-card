@@ -14,9 +14,6 @@ This is my solution to the [Product preview card component challenge on Frontend
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -48,59 +45,49 @@ Active State
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
-- CSS Grid
 - Mobile-first workflow
+- CSS Grid
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+This is my first practice project where I wasn't just following an instructor on an online tutorial and is actually my second attempt in building this project. I've found that I encountered issues on placing repeating codes or repeating CSS selectors and even using CSS styles that I'm not entirely sure what is doing which made my first attempt miserable.
 
-To see how you can add code snippets, see below:
+I tried attempting everything again from scratch and learned that I shouldn't skip the planning phase and find similar portions of the page that I can group together to apply the same styles. This somewhat made my project more maintainable(I guess) and workable atleast that allowed me to finish what was required on the challenge.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+I did use mobile-first approach in developing and used CSS grid to create my two-column layout for the desktop view. However, I didn't plan on using grid on my mobile view which is why I just placed it for my desktop view. I'm not entirely sure if this approach is correct or not, since I can just use CSS Grids for my mobile view as well.
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+@media screen and (min-width: 790px) {
+  section {
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    height: 450px;
+    margin: 20vh calc(50% - 300px) 3em;
+  }
 }
 ```
 
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+From this point onwards, I'm planning to see how others attempted this challenge (even though this is a newbie project and I should practice other projects) and take lessons on them how they designed theirs. I like to see how they planned things out and what approach they used that I might help me in the future too.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+If given the time and interest, I might update this site once I learned other approaches and techniques and hopefully make this site more maintanable and workable.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- Google and StackOverflow
+  I just google things out and it leads me to some stackoverflow link which I often find useful in many scenarios.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- W3Schools
+  When I'm unsure about some syntax, or how a css style works out, I sometimes go here.
+
+- Youtube
+  When I want to dive a little bit deeper on a topic or an approach, I usually go here.
+
+- Team TreeHouse
+  I'm currently taking their Front-End Web Development track here and where most of my foundation in web development was built.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Website - Soon
+- Frontend Mentor - [@blackpinkrose](https://www.frontendmentor.io/profile/blackpinkrose)
